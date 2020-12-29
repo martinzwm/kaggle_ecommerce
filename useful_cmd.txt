@@ -1,0 +1,5 @@
+Transfer file from local to remote
+scp -P 34410 C:\Users\Martin\Desktop\CS480\Kaggle\main.py z74ma@uwaterloo.ca@uwaccel.cmc.ca:~/scripts/NVIDIAV100/data/kaggle
+
+Transfer file from remote to local
+scp -P 38512 z74ma@uwaterloo.ca@uwaccel.cmc.ca:~/scripts/NVIDIAV100/data/kaggle/preds_category.csv .
